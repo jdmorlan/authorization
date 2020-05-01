@@ -1,5 +1,5 @@
 const buildContainer = require("./container");
-const core = require("./src");
+const core = require("../src");
 
 const { Policy, Organization } = core.entities;
 

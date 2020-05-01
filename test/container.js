@@ -1,11 +1,5 @@
 const awilix = require("awilix");
-const core = require("./src");
-
-const organization = core.entities.Organization.from({
-  name: "eog",
-  project: "ihaul",
-  policy: "authz",
-});
+const core = require("../src");
 
 module.exports = () => {
   const container = awilix.createContainer();
