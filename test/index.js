@@ -8,8 +8,8 @@ const publisher = container.resolve("publisher");
 const checker = container.resolve("checker");
 
 const organization = Organization.from({
-  name: "eog",
-  project: "ihaul",
+  name: "org",
+  project: "project",
   policy: "authz",
 });
 
