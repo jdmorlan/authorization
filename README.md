@@ -20,7 +20,7 @@ I don't have a package up for this just yet, so you will need to clone the
 repo and run it locally.
 
 ```
-git clone https://github.com/bunobair/authorization
+git clone https://github.com/jdmorlan/authorization
 
 npm install
 ```
